@@ -248,7 +248,7 @@ endif
 
 #指定arch跟交叉编译器
 ARCH = arm
-CROSS_COMPILE = arm-linux-gnueabihf-
+CROSS_COMPILE = /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
 
 KCONFIG_CONFIG	?= .config
 export KCONFIG_CONFIG
